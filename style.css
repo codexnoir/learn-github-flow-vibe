@@ -93,3 +93,7 @@ header p {
     background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
     border-color: rgba(139, 92, 246, 0.5);
 }
+
+.navbar { background: rgba(30, 41, 59, 0.9); padding: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(10px); }
+.navbar ul { list-style: none; display: flex; gap: 2rem; justify-content: center; margin: 0; padding: 0; }
+.navbar a { color: var(--text-primary); text-decoration: none; font-weight: 600; transition: color 0.3s; }
